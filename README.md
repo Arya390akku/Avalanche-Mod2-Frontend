@@ -1,16 +1,22 @@
-# **Starter Next/Hardhat Project**
 
-## **Project Title: Next.js & Hardhat Ethereum DApp Starter Kit**
+# **AVALANCHE INTERMEDIATE MODULE 2**
 
+## **Project Title: Solidity Smart Contract for Balance Management**
+
+### **Smart Contract Interface**
+
+
+
+![Smart Contract Interface](./path/to/your/interface-image.png)
 ### **Description**
-The Next.js & Hardhat Ethereum DApp Starter Kit is a foundational template designed to help developers quickly set up a decentralized application (DApp) environment. It integrates the power of Next.js for the front-end and Hardhat for Ethereum smart contract development. This project includes a basic Solidity smart contract and a React-based front-end that interacts with the Ethereum blockchain using ethers.js, making it easier to develop, test, and deploy decentralized applications.
+The `Assessment` Solidity smart contract is designed to securely manage balances for a single owner. It allows the owner to deposit, withdraw, and send Ether, with built-in checks and logging for each transaction. This project serves as an excellent example for those looking to understand the basics of smart contract development on the Ethereum blockchain.
 
 ### **Overview**
-This starter kit serves as a comprehensive boilerplate for blockchain developers. It combines the modern React framework (Next.js) with Hardhat, an Ethereum development environment, to offer a smooth development experience. Whether you're new to Ethereum development or a seasoned developer, this project provides the essential tools to start building decentralized applications on the Ethereum network. The project demonstrates how to deploy smart contracts, interact with them via a React front-end, and test the entire setup in a local blockchain environment.
+This smart contract is a foundational example of how Ethereum contracts manage digital assets. The `Assessment` contract includes key functions for balance management, along with event logging for transparency. It showcases the basic functionalities of Solidity, such as using mappings for balance tracking, employing `require` statements for security checks, and utilizing custom errors for efficient error handling.
 
 ## **Getting Started**
 
-Follow these steps to set up and run the project on your local machine:
+Follow these steps to set up and run the contract on your local machine:
 
 ### **Installing**
 
@@ -48,7 +54,7 @@ Follow these steps to set up and run the project on your local machine:
    npx hardhat run --network localhost scripts/deploy.js
    ```
 
-4. **In the first terminal, launch the front-end:**
+4. **In the first terminal, launch the front-end (if applicable):**
 
    ```bash
    npm run dev
@@ -58,14 +64,19 @@ Follow these steps to set up and run the project on your local machine:
 
 ### **Project Structure**
 
-- **`contracts/`**: Contains Solidity smart contract files.
+- **`contracts/`**: Contains the Solidity smart contract file `Assessment.sol`.
 - **`artifacts/`**: Stores compiled contract artifacts.
 - **`scripts/`**: Includes scripts for deploying contracts.
-- **`frontend/`**: Holds the Next.js React front-end code.
+- **`frontend/`**: (If applicable) Holds the front-end code for interacting with the contract.
 - **`hardhat.config.js`**: Hardhat configuration file.
-- **`next.config.js`**: Next.js configuration file.
 - **`package.json`**: Project configuration and dependencies.
 - **`README.md`**: Project documentation.
+
+### **Smart Contract Interface**
+
+
+
+![Smart Contract Interface](./path/to/your/interface-image.png)
 
 ### **Help**
 
@@ -73,7 +84,7 @@ If you encounter any issues or have questions, here are a few resources:
 
 - **Ethereum Documentation**: [Ethereum Docs](https://ethereum.org/en/developers/docs/)
 - **Hardhat Documentation**: [Hardhat Docs](https://hardhat.org/getting-started/)
-- **Next.js Documentation**: [Next.js Docs](https://nextjs.org/docs)
+- **Solidity Documentation**: [Solidity Docs](https://docs.soliditylang.org/en/v0.8.9/)
 - **Ethers.js Documentation**: [Ethers.js Docs](https://docs.ethers.io/v5/)
 
 Feel free to modify and extend this project for your Ethereum decentralized application (DApp) development.
@@ -82,3 +93,7 @@ Feel free to modify and extend this project for your Ethereum decentralized appl
 
 - Ensure you have Node.js and npm installed on your machine before proceeding.
 - Make sure you have the MetaMask extension installed in your browser for Ethereum wallet interaction.
+
+---
+
+In the README, replace `./path/to/your/interface-image.png` with the actual path to your interface image within the project directory. This README should give clear instructions and overview of your smart contract project, along with how to include your interface image.
