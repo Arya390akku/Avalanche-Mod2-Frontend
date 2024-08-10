@@ -72,28 +72,10 @@ Follow these steps to set up and run the contract on your local machine:
 - **`package.json`**: Project configuration and dependencies.
 - **`README.md`**: Project documentation.
 
-### **Smart Contract Interface**
+### **Author**
+
+Arya390Akku
 
 
 
-![Smart Contract Interface](./path/to/your/interface-image.png)
 
-### **Help**
-
-If you encounter any issues or have questions, here are a few resources:
-
-- **Ethereum Documentation**: [Ethereum Docs](https://ethereum.org/en/developers/docs/)
-- **Hardhat Documentation**: [Hardhat Docs](https://hardhat.org/getting-started/)
-- **Solidity Documentation**: [Solidity Docs](https://docs.soliditylang.org/en/v0.8.9/)
-- **Ethers.js Documentation**: [Ethers.js Docs](https://docs.ethers.io/v5/)
-
-Feel free to modify and extend this project for your Ethereum decentralized application (DApp) development.
-
-### **Notes**
-
-- Ensure you have Node.js and npm installed on your machine before proceeding.
-- Make sure you have the MetaMask extension installed in your browser for Ethereum wallet interaction.
-
----
-
-In the README, replace `./path/to/your/interface-image.png` with the actual path to your interface image within the project directory. This README should give clear instructions and overview of your smart contract project, along with how to include your interface image.
