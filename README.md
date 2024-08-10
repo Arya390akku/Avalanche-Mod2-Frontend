@@ -7,7 +7,7 @@
 
 
 
-![Frontend]([./path/to/your/interface-image.png](https://github.com/Arya390akku/Avalanche-Mod2-Frontend/blob/main/Screenshot%202024-08-10%20214532.png))
+![Frontend]([Screenshot%202024-08-10%20214532.png))
 ### **Description**
 The `Assessment` Solidity smart contract is designed to securely manage balances for a single owner. It allows the owner to deposit, withdraw, and send Ether, with built-in checks and logging for each transaction. This project serves as an excellent example for those looking to understand the basics of smart contract development on the Ethereum blockchain.
 
